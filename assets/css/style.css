@@ -116,13 +116,13 @@
 }
 
 .img3{
-    max-width:800.5px;
+    max-width:100%;
     max-height:430px;
 }
 
 
 .slider {
-    width:100%;
+    width:90%;
     height: 70%;
     margin:auto;
     overflow:hidden;
@@ -130,11 +130,12 @@
 
 
 .slider img {
-    width: 100%;
+    width: 90%;
     height:80%;
 }
 
-.cardxv {
+.cardxv 
+    {
     font-size: 1em;
     overflow: hidden;
     padding: 0;
@@ -142,6 +143,7 @@
     border-radius: .28571429rem;
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
 }
+
 
 .cardxv-block {
     text-align: center;
@@ -155,12 +157,54 @@
 }
 
 .cardxv-img-top {
-    display: block;
-    width: 580px;
+   display: block;
+    width: 750px;
     height: 160px;
 }
 
 .imgxv{
-    max-width:1000.5px;
+    max-width:100%;
     max-height:430px;
+}
+
+.section-header_title1 {
+    font-family:playfair_displayblack;
+}
+.summary-text {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+}
+
+.social {
+  position: fixed;
+  left:-40px;
+  top: 250px;
+  z-index: 2000;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social ul li a {
+  width: 50px;
+  height: 50px; 
+  display: inline-block;
+  color: white;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition:all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease
+}
+
+.social ul li #icono_1{background:#3b5998;}
+.social ul li #icono_2{background:#00abf0;}
+.social ul li #icono_3{background:#d95232;}
+.social ul li #icono_4{background:#666666;}
+
+.social ul li a:hover{
+  background: #000;
+  padding: 10px 30px;
 }

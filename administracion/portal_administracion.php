@@ -14,7 +14,19 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 
-			
+			$(document).ready(function(){
+
+    var max_chars = 4000;
+
+    $('#max').html(max_chars);
+
+    $('#texto_noticia').keyup(function() {
+        var chars = $(this).val().length;
+        var diff = max_chars - chars;
+        $('#contador').html(diff);   
+    });
+});
+
 			$('#noticias').submit(function(e){
 				var file_data = $('#imagen').prop('files')[0];
 				var form_data = new FormData($("#noticias")[0]);
@@ -130,8 +142,13 @@
 								<?php echo $row['titulo_categoria']; ?></option>
 								<?php } ?>
 							</select><br>
+						<label>Encabezado de la Noticia</label>
+						<input class="form-control" type="text" name="encabezado_noticia" id="encabezado_noticia" style="width:500px;"><br>
+						<label>Lugar de la Noticia</label>
+						<input type="text" class="form-control" name="lugar_noticia" id="lugar_noticia" style="width: 500px;"><br>
 						<label>Texto/Contenido:</label><br>
-							<textarea class="form-control" name="texto_noticia" id="texto_noticia" style="width:500px;height:120px;"></textarea><br>
+							<textarea class="form-control" name="texto_noticia" maxlength="4000" id="texto_noticia" style="width:500px;height:120px;"></textarea><br>
+							<div id="contador"></div>
 						<label>Reportero:</label><br>
 							<?php
 							require('includes/conexion.php');
