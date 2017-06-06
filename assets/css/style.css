@@ -1,0 +1,166 @@
+.rte {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    color: #777;
+}
+
+ .card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+}
+
+.card-block {
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width:100%;
+    height: 530px;
+    position: center;
+}
+
+.img{
+    max-width:100%;
+    max-height:730px;
+}
+
+
+.card1 {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+}
+
+.card1-block {
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    box-shadow: none;
+}
+
+.card1-img-top {
+    display: block;
+    width:100%;
+    height: 220px;
+}
+
+.img1{
+    max-width:100%;
+    max-height:580px;
+}
+
+.card2 {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+}
+
+.card2-block {
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    box-shadow: none;
+}
+
+.card2-img-top {
+    display: block;
+    width:100%;
+    height: 220px;
+}
+
+.img2{
+    max-width:100%;
+    max-height:590px;
+}
+
+
+.card3 {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card3-block {
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card3-img-top {
+    display: block;
+    width: 750px;
+    height: 160px;
+}
+
+.img3{
+    max-width:800.5px;
+    max-height:430px;
+}
+
+
+.slider {
+    width:100%;
+    height: 70%;
+    margin:auto;
+    overflow:hidden;
+}
+
+
+.slider img {
+    width: 100%;
+    height:80%;
+}
+
+.cardxv {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.cardxv-block {
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.cardxv-img-top {
+    display: block;
+    width: 580px;
+    height: 160px;
+}
+
+.imgxv{
+    max-width:1000.5px;
+    max-height:430px;
+}
